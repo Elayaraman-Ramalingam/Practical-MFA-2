@@ -46,7 +46,6 @@ section.main img{
 div.main{
     display: flex;
     flex-direction: row;
-    margin: 30px;
     height: 200px;
 }
 div.main_heading{
@@ -92,6 +91,9 @@ section.aside div h2{
 }
 section.aside div h3{
     color: white;
+}
+section.aside div h3:hover{
+    color:hsl(35, 77%, 62%);
 }
 section.aside div p{
     color:hsla(36, 100%, 99%, .6);
